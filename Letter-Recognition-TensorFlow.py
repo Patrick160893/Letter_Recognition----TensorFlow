@@ -125,6 +125,7 @@ with tf.Session() as sess:
     print(test_loss)
     
     plt.plot(train_losses, label='train')
+    plt.title('Plot of Predicted Letter Values against True Values')
     plt.xlabel("Epochs")
     plt.ylabel("Epoch Loss")
-    plt.legend() 
+    plt.legend()  
